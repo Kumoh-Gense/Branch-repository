@@ -1,4 +1,4 @@
-def first_function(l, r, nums):
+def sfdasdsada
     # Last element will be the pivot and the first element the pointer
     pivot, ptr = nums[r], l
     for i in range(l, r):

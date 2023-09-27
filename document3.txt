@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void)
+{
+    //변수 지정(전역 변수 지정 및 값 미대입으로 0 자동 대입)
+    int start_num; int end_num;
+    //반복문
+    while (1)
+    {
+        printf("구구단을 출력할 시작 숫자와 끝 숫자를 입력하세요 : ");
+        scanf_s("%d %d", &start_num, &end_num);
+        if (start_num > 9 || start_num < 2) 
+        {
+            printf("시작 숫자의 범위가 2~9의 적절한 범위 내에 있지 않습니다.");
+            break;
+        }
+        if (end_num > 9 || end_num < 2)
+        {
+            printf("끝 숫자의 범위가 2~9의 적절한 범위 내에 있지 않습니다.");
+            br...

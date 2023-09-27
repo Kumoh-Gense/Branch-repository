@@ -1,4 +1,4 @@
-def Branch2_function(l, r, nums):
+def yes
     # Last element will be the pivot and the first element the pointer
     pivot, ptr = nums[r], l
     for i in range(l, r):
